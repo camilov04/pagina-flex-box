@@ -6,13 +6,17 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.servicios{
+.contacto{
     color: rgb(18, 147, 212);
 }
 
 a{
     text-decoration: none;
     color: white;
+}
+
+.suscribite{
+    border: none;
 }
 
 header{
@@ -47,7 +51,7 @@ li{
     background-color: rgb(18, 147, 212);
 }
 
-.H1_AZUL{
+span{
     color: rgb(18, 147, 212);
 }
 /*BODY*/
@@ -102,14 +106,27 @@ section{
     flex-direction: row-reverse;
     justify-content: center;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
-.gris{
-    background-color: rgb(231, 231, 231);
-    color: black;
-    padding: 15px;
-    width: 76%;
+
+.input input{
+
+    width: 703px;
+    height: 40px;
+}
+
+.mensaje input{
+    height: 125px;
+    width: 703px;
+
+}
+.enviar{
+    text-align: center;
+    color: white;
+    background-color: rgb(232, 73, 29);
+    width: 703px;
+    height: 43px;
 }
 
 .izquierda{
@@ -121,10 +138,19 @@ section{
  
 }
 
-.derecha{
+.QH{
     background-color: rgb(53, 66, 74);
     color: white;
     padding: 15px;
+}
+
+.ubi img{
+    width: 345px;
+    height: 323px;
+}
+
+.derecha{
+    margin: 0 0 0 143px;
 }
 
 /*FOOTER*/
@@ -151,10 +177,21 @@ footer{
         text-decoration: none;
         justify-content: space-between;
         width:33%;
-    } 
+    }  
+
+    .input input{
+
+        width: 560px;
+        height: 40px;
+    }
     
-    .izquierda{
-        margin: 0 -150px 0 0;
+    .mensaje input{
+        height: 125px;
+        width: 560px;
+    }
+
+    .enviar{
+        width: 560px;
     }
 }
 
@@ -165,14 +202,26 @@ footer{
     }
     
     ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        justify-content: space-between;
         width:36%;
     }
+    .input input{
 
-    .gris{
-        width: 72%;
+        width: 500px;
+        height: 40px;
     }
 
+    .mensaje input{
+        height: 125px;
+        width: 500px;
+    }
 
+    .enviar{
+        width: 500px;
+    }
 }
 
 @media(max-width:820px){
@@ -180,7 +229,18 @@ footer{
 
         width:40%;
     }
-    .izquierda{
-        margin: 0 -130px 0 0;
+    .input input{
+
+        width: 455px;
+        height: 40px;
+    }
+
+    .mensaje input{
+        height: 125px;
+        width: 455px;
+    }
+
+    .enviar{
+        width: 500px
     }
 }

@@ -47,7 +47,7 @@ li{
     background-color: rgb(18, 147, 212);
 }
 
-.H1_AZUL{
+span{
     color: rgb(18, 147, 212);
 }
 /*BODY*/
@@ -110,6 +110,10 @@ section{
     color: white;
     padding: 15px;
     width: 76%;
+}
+
+.suscribite{
+    border: none;
 }
 
 .izquierda{
